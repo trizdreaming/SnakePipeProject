@@ -1,0 +1,35 @@
+﻿빌드 시작: 2014-06-27 오전 10:58:10
+     1>2 노드의 "C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\kinnectProject.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\addons\ofxOpenNI\src /IC:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\addons\ofxOpenNI\include\nite /IC:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\addons\ofxOpenNI\include\openni /IC:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\addons\ofxOpenNI\include\openni\Win32 /Isrc /I..\..\..\addons\ofxOpenNI\include\openni /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\KinectController.cpp
+         KinectController.cpp
+     1>c:\users\public\documents\hci\of_v0.8.1_vs_release\libs\openframeworks\graphics\ofpixels.h(156): warning C4003: 'max' 매크로의 실제 매개 변수가 부족합니다.
+     1>c:\users\public\documents\hci\of_v0.8.1_vs_release\libs\openframeworks\graphics\ofpixels.h(157): warning C4003: 'max' 매크로의 실제 매개 변수가 부족합니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\KinnectMusic_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib /LIBPATH:..\..\..\addons\ofxOpenNI\win\copy_to_data_openni_path\lib /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs OpenNI.lib openNI.lib XnVCNITE_1_5_2.lib XnVFeatures_1_5_2.lib XnVHandGenerator_1_5_2.lib XnVNITE_1_5_2.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInputD.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib ssleay32MD.lib libeay32MD.lib crypt32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationmdd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:msvcrt /NODEFAULTLIB:libcmt /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\KinnectMusic_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\KinnectMusic_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\icon.res
+         obj\Debug\ofxOpenNI.obj
+         obj\Debug\ofxOpenNITypes.obj
+         obj\Debug\Box.obj
+         obj\Debug\KinectController.obj
+         obj\Debug\main.obj
+         obj\Debug\testApp.obj
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib_debug.lib
+         kinnectProject.vcxproj -> C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\bin\KinnectMusic_debug.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\*.dll" "C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\bin"
+         :VCEnd
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\Assimp32.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\fmodex.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\fmodexL.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\FreeImage.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\FreeType-6.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\glut32.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\libeay32.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\ssleay32.dll
+         C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\..\..\..\export\vs\Zlib.dll
+         9개 파일이 복사되었습니다.
+     1>"C:\Users\Public\Documents\HCI\of_v0.8.1_vs_release\apps\myApps\kinnectMusic\kinnectProject.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:07.24
